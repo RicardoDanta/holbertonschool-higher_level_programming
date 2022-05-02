@@ -8,4 +8,3 @@ def no_c(my_string):
             listastr.remove('C')
         my_string = "".join(str(i) for i in listastr)
     return my_string
-
