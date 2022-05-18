@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-""" clase """
+"""class"""
 
 
 class Square:
-    """ inicializar """
+    """inicialiting"""
     def __init__(self, size=0):
-        """ asdf """
+        """Comment"""
         if type(size) != int:
             raise TypeError("size must be an integer")
         if size < 0:
