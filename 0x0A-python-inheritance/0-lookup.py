@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""class MyList"""
+"""function that returns the list"""
 
 
 def lookup(obj):
-    """inherits from list"""
+    """of available attributes and methods of an object"""
     return (dir(obj))
