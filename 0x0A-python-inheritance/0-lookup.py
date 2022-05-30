@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-def lookup(obj):
-    return (dir(obj))
+"""class MyList"""
 
+
+def lookup(obj):
+    """inherits from list"""
+    return (dir(obj))
