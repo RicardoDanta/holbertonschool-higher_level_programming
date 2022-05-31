@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""class MyIn """
+"""class MyInt"""
 
 
 class MyInt(int):
-    """ class myint """
+    """inherits from int"""
     def __eq__(self, result):
-        """eq"""
+        """False"""
 
         return False
 
     def __ne__(self, result):
-        """ne"""
+        """True"""
         return True
