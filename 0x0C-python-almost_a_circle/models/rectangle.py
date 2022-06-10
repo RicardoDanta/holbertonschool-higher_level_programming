@@ -8,6 +8,7 @@ from models.base import Base
 class Rectangle(Base):
     """Constructor"""
     def __init__(self, width, height, x=0, y=0, id=None):
+        """init"""
         self.width = width
         self.height = height
         self.x = x
@@ -16,6 +17,7 @@ class Rectangle(Base):
 
     @property
     def width(self):
+        "Width P"""
         return self.__width
 
     @width.setter
@@ -29,6 +31,7 @@ class Rectangle(Base):
 
     @property
     def height(self):
+        """Height P"""
         return self.__height
 
     @height.setter
@@ -42,6 +45,7 @@ class Rectangle(Base):
 
     @property
     def x(self):
+        """X P"""
         return self.__x
 
     @x.setter
@@ -55,6 +59,7 @@ class Rectangle(Base):
 
     @property
     def y(self):
+        """Y P"""
         return self.__y
 
     @y.setter
