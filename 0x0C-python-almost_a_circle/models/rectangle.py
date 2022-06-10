@@ -75,3 +75,8 @@ class Rectangle(Base):
     def area(self):
         """Area"""
         return self.width*self.height
+
+    @area.setter
+    def area(self, value)
+        """Area Setter"""
+        self.__area = value
