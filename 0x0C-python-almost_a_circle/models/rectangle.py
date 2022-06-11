@@ -71,12 +71,6 @@ class Rectangle(Base):
             raise ValueError("y must be >= 0")
         self.__y = value
 
-    @property
     def area(self):
         """Area"""
-        return self.width*self.height
-
-    @area.setter
-    def area(self, value)
-        """Area Setter"""
-        self.__area = value
+        return self.width * self.height
