@@ -74,3 +74,10 @@ class Rectangle(Base):
     def area(self):
         """Area"""
         return self.__width * self.__height
+
+    def display(self):
+        """Display"""
+        print(f"\n" * self.__y, end="")
+        for i in range(self.__height):
+            print(f" " * self.__x, end="")
+            print(f"#" * self.__width)
