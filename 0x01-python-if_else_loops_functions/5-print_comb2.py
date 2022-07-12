@@ -3,4 +3,4 @@ for i in range(0, 100):
     if i == 99:
         break
     print(f'{i:02d}, end=', ')
-    print(99)
+print(99)
