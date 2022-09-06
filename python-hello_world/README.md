@@ -13,6 +13,30 @@ _Enjoy!_
 
 _- Guillaume_
 
+### Zen
+
+_The Zen of Python, by Tim Peters_
+
+_Beautiful is better than ugly._
+_Explicit is better than implicit._
+_Simple is better than complex._
+_Complex is better than complicated._
+_Flat is better than nested._
+_Sparse is better than dense._
+_Readability counts._
+_Special cases aren't special enough to break the rules._
+_Although practicality beats purity._
+_Errors should never pass silently._
+_Unless explicitly silenced._
+_In the face of ambiguity, refuse the temptation to guess._
+_There should be one-- and preferably only one --obvious way to do it._
+_Although that way may not be obvious at first unless you're Dutch._
+_Now is better than never._
+_Although never is often better than *right* now._
+_If the implementation is hard to explain, it's a bad idea._
+_If the implementation is easy to explain, it may be a good idea._
+_Namespaces are one honking great idea -- let's do more of those!_
+
 ### General Learning Objetives
 
 - Why Python programming is awesome
