@@ -1,6 +1,6 @@
-### Python: if/else, loops, functions
+## Python: if/else, loops, functions
 
-## General Learning Objetives
+### General Learning Objetives
 
 - Why Python programming is awesome
 - Why indentation is so important in Python
