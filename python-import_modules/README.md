@@ -15,3 +15,14 @@
 #### 0. Import a simple function from a simple file
 
 Write a program that imports the function **def add(a, b)**: from the file _add_0.py_ and prints the result of the addition **1 + 2 = 3**
+
+- You have to use _print_ function with string format to display integers
+- You have to assign:
+  - the value _1_ to a variable called _a_
+  - the value _2_ to a variable called _b_
+  - and use those two variables as arguments when calling the functions _add_ and _print_
+- _a_ and _b_ must be defined in 2 different lines: _a = 1_ and another _b = 2_
+- Your program should print: _<a value> + <b value> = <add(a, b) value>_ followed with a new line
+- You can only use the word _add_0_ once in your code
+- You are not allowed to use _*_ for importing or __import__
+- Your code should not be executed when imported - by using __import__, like the example below
