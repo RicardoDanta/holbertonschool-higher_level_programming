@@ -9,3 +9,7 @@
 - How to use the built-in function _dir()_
 - How to prevent code in your script from being executed when imported
 - How to use command line arguments with your Python programs
+
+### Tasks
+
+#### 0. Import a simple function from a simple file
