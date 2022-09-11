@@ -6,7 +6,7 @@ if __name__ == "__main__":
     if argc == 0:
         print(f'0 arguments.')
     else:
-        if argc -1 == 1:
+        if argc == 1:
             print(f'{argc} argument:')
         else:
             print(f'{argc} arguments:')
