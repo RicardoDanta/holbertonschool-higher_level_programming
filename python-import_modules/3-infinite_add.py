@@ -2,8 +2,9 @@
 from sys import argv
 
 if __name__ == "__main__":
-    argc = argv
+    args = argv
     i = 0
-    for j in range(1, len(argc)):
-        i = i + int(argc[j])
-        print("{}".format(i))
+    
+    for j in range(1, len(args)):
+        i = i + int(args[j])
+    print("{}".format(i))
