@@ -9,3 +9,8 @@
 	>>> s_m_n()
 	Traceback (most recent call last):
 	TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+    >>> s_m_n(first_name="Ricardo", last_name=1)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+    >>> s_m_n(first_name="Ricardo", last_name="Danta")
+    My name is Ricardo Danta
