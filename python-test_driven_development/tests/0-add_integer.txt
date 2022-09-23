@@ -11,9 +11,8 @@
 	>>> a_i(float('Nan'))
 	Traceback (most recent call last):
 	ValueError: cannot convert float NaN to integer
-	>>> a_i('1')
+	>>> a_i(1)
+	99	
+	>>> a_i()
 	Traceback (most recent call last):
-	TypeError: a must be an integer
-	>>> a_i('1', '2')
-	Traceback (most recent call last):
-        TypeError: a must be an integer
+	TypeError: add_integer() missing 1 required positional argument: 'a'
