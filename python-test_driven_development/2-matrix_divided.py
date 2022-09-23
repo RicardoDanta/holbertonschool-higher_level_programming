@@ -5,10 +5,10 @@ def matrix_divided(matrix, div):
         raise TypeError("div must be a number")
     if div == 0:
         raise ZeroDivisionError("division by zero")
+    length = len(matrix[0])
     m = []
-    l = len(matrix[0])
     for j in range(len(matrix)):
-        if l != len(matrix[j]):
+        if length is not len(matrix[j]):
             raise TypeError("Each row of the matrix must have the same size")
         m.append([])
         for i in matrix[j]:
@@ -17,4 +17,3 @@ def matrix_divided(matrix, div):
                         (list of lists) of integers/floats")
             m[j].append(round(i / div, 2))
     return m
-
