@@ -26,6 +26,5 @@
 	>>> m_d([[1, 2], [4]], 2)
 	Traceback (most recent call last):
 	TypeError: Each row of the matrix must have the same size
-	>>> m_d(1000e1000)
-	Traceback (most recent call last):
-	TypeError: matrix_divided() missing 1 required positional argument: 'div'
+	>>> m_d([[1, 2], [3, 4]], 1000e1000)
+	[[0.0, 0.0], [0.0, 0.0]]
