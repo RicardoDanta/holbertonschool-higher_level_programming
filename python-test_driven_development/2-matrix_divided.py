@@ -5,7 +5,6 @@ def matrix_divided(matrix, div):
 
     def matrix_divided(matrix, div):
         """Matrix"""
-        new_matrix = list(matrix)
         if not isinstance(matrix, [[]]) or not isinstance(matrix, float):
             raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
         for row in matrix:
