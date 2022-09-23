@@ -7,3 +7,8 @@
     >>> t_i()
     Traceback (most recent call last):
     TypeError: text_indentation() missing 1 required positional argument: 'text'
+    >>> t_i("Hello\n\nWorld.")
+    Hello
+    <BLANKLINE>
+    World.
+    <BLANKLINE>
