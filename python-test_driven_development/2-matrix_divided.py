@@ -16,7 +16,7 @@ def matrix_divided(matrix, div):
         m.append([])
         for i in matrix[j]:
             if not isinstance(i, int) and not isinstance(i, float):
-                raise TypeError("matrix must be a matrix\
-                        (list of lists) of integers/floats")
+                raise TypeError("matrix must be a matrix \
+(list of lists) of integers/floats")
             m[j].append(round(i / div, 2))
     return m

@@ -22,4 +22,4 @@
 	TypeError: matrix_divided() missing 1 required positional argument: 'div'
 	>>> m_d([[3, '9'], [15, 3]], 3)
 	Traceback (most recent call last):
-	TypeError: matrix must be a matrix                        (list of lists) of integers/floats
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
