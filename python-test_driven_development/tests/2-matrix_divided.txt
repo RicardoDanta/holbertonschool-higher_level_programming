@@ -2,3 +2,15 @@
 
 	>>> m_d([[1, 2], [3, 4]], 2)
 	[[0.5, 1.0], [1.5, 2.0]]
+	>>> m_d([[1, 2], [3, 4]], 0)
+	Traceback (most recent call last):
+	ZeroDivisionError: division by zero
+	>>> m_d(a)
+	Traceback (most recent call last):
+	NameError: name 'a' is not defined
+	>>> m_d("Hola")
+	Traceback (most recent call last):
+	TypeError: matrix_divided() missing 1 required positional argument: 'div'
+	>>> m_d("1", "2")
+	Traceback (most recent call last):
+	TypeError: div must be a number
