@@ -14,3 +14,9 @@
 	>>> m_d("1", "2")
 	Traceback (most recent call last):
 	TypeError: div must be a number
+	>>> m_d()
+	Traceback (most recent call last):
+	TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
+	>>> m_d([])
+	Traceback (most recent call last):
+	TypeError: matrix_divided() missing 1 required positional argument: 'div'
