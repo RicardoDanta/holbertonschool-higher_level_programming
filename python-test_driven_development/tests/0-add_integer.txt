@@ -1,1 +1,9 @@
-Test file
+>>> a_i = __import__('0-add_integer').add_integer
+
+	>>> a_i("a, b", "Hola")
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+	>>> a_i(1000e1000)
+	Traceback (most recent call last):
+	OverflowError: cannot convert float infinity to integer	
+	
