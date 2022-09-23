@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Matrix"""
+
+
 def matrix_divided(matrix, div):
     """Write a function that divides all elements of a matrix"""
     if type(div) != int and type(div) != float:
