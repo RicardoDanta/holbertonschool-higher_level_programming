@@ -1,0 +1,3 @@
+>>> t_i = __import__('5-text_indentation').text_indentation
+
+    >>> t_i("")
