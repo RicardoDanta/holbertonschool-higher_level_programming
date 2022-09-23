@@ -6,3 +6,11 @@
     >>> p_s(3.3)
     Traceback (most recent call last):
     TypeError: size must be an integer
+    >>> p_s(1)
+    #
+    >>> p_s(-1)
+    Traceback (most recent call last):
+    ValueError: size must be >= 0
+    >>> p_s()
+    Traceback (most recent call last):
+    TypeError: print_square() missing 1 required positional argument: 'size'
