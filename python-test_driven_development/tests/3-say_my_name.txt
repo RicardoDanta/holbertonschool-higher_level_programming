@@ -1,0 +1,11 @@
+>>> s_m_n = __import__('3-say_my_name').say_my_name
+
+	>>> s_m_n(a)
+	Traceback (most recent call last):
+	NameError: name 'a' is not defined
+	>>> s_m_n(0)
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
+	>>> s_m_n()
+	Traceback (most recent call last):
+	TypeError: say_my_name() missing 1 required positional argument: 'first_name'
