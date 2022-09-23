@@ -1,3 +1,9 @@
 >>> t_i = __import__('5-text_indentation').text_indentation
 
     >>> t_i("")
+    >>> t_i(1)
+    Traceback (most recent call last):
+    TypeError: text must be a string
+    >>> t_i()
+    Traceback (most recent call last):
+    TypeError: text_indentation() missing 1 required positional argument: 'text'
