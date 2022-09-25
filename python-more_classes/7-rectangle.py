@@ -5,6 +5,7 @@
 class Rectangle:
     """Define a Class"""
     number_of_instances = 0
+    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """Instantiation with optional width and height"""
@@ -35,6 +36,7 @@ class Rectangle:
         else:
             for _ in range(self.__height):
                 for _ in range(self.__width):
+                    empty_string += str(self.print_symbol)
                     empty_string += "#"
                 empty_string += "\n"
         return empty_string[:-1]
