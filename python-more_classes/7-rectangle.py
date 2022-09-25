@@ -37,7 +37,6 @@ class Rectangle:
             for _ in range(self.__height):
                 for _ in range(self.__width):
                     empty_string += str(self.print_symbol)
-                    empty_string += "#"
                 empty_string += "\n"
         return empty_string[:-1]
 
