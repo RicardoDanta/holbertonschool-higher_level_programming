@@ -5,5 +5,8 @@
     >>> m_l(-1)
     Traceback (most recent call last):
     TypeError: 'int' object is not iterable
-    >>> m_l([list, 5])
-    [<class 'list'>, 5]
+    >>> m_l(True)
+    Traceback (most recent call last):
+    TypeError: 'bool' object is not iterable
+    >>> m_l("12345")
+    ['1', '2', '3', '4', '5']
