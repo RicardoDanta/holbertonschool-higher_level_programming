@@ -1,0 +1,7 @@
+>>> b_g = __import__('7-base_geometry').BaseGeometry
+
+    >>> b_g("Hola")
+    Traceback (most recent call last): 
+    TypeError: BaseGeometry() takes no arguments
+    >>> b_g()
+    <7-base_geometry.BaseGeometry object at 0x7faf425d09d0>
