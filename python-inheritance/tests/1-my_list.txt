@@ -5,8 +5,9 @@
     >>> m_l(-1)
     Traceback (most recent call last):
     TypeError: 'int' object is not iterable
-    >>> m_l(True)
+    >>> m_l("self", [])
     Traceback (most recent call last):
-    TypeError: 'bool' object is not iterable
-    >>> m_l("12345")
-    ['1', '2', '3', '4', '5']
+    TypeError: list expected at most 1 argument, got 2
+    >>> m_l(1000e1000)
+    Traceback (most recent call last):
+    TypeError: 'float' object is not iterable
