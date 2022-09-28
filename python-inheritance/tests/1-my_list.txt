@@ -1,10 +1,7 @@
 >>> m_l = __import__('1-my_list').MyList
 
-    >>> m_l("")
-    []
-    >>> m_l(-1)
-    Traceback (most recent call last):
-    TypeError: 'int' object is not iterable
+    >>> m_l = m_l()
+        >>> m_l.append(1)
+
     >>> m_l.print_sorted()
-    Traceback (most recent call last):
-    TypeError: print_sorted() missing 1 required positional argument: 'self'
+    [1]
