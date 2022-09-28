@@ -5,3 +5,8 @@
 
     >>> m_l.print_sorted()
     [1]
+
+    >>> m_l.append(-1)
+
+    >>> m_l.print_sorted()
+    [-1, 1]
