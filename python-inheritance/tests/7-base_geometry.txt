@@ -6,6 +6,12 @@
     >>> b_g.integer_validator()
     Traceback (most recent call last):
     TypeError: integer_validator() missing 3 required positional arguments: 'self', 'name', and 'value'
-    >>> b_g.integer_validator("age", 1)
+    >>> b_g.integer_validator("name", "John")
+    Traceback (most recent call last):
+    TypeError: integer_validator() missing 1 required positional argument: 'value'
+    >>> b_g.integer_validator("age", 0)
+    Traceback (most recent call last):
+    TypeError: integer_validator() missing 1 required positional argument: 'value'
+    >>> b_g.integer_validator("distance", -4)
     Traceback (most recent call last):
     TypeError: integer_validator() missing 1 required positional argument: 'value'
