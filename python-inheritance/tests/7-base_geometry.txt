@@ -1,17 +1,16 @@
->>> b_g = __import__('7-base_geometry').BaseGeometry
+>>> BG = __import__('7-base_geometry').BaseGeometry
 
-    >>> b_g.area(self)
-    Traceback (most recent call last):
-    NameError: name 'self' is not defined
-    >>> b_g.integer_validator()
-    Traceback (most recent call last):
-    TypeError: integer_validator() missing 3 required positional arguments: 'self', 'name', and 'value'
-    >>> b_g.integer_validator("name", "John")
-    Traceback (most recent call last):
-    TypeError: integer_validator() missing 1 required positional argument: 'value'
-    >>> b_g.integer_validator("age", 0)
-    Traceback (most recent call last):
-    TypeError: integer_validator() missing 1 required positional argument: 'value'
-    >>> b_g.integer_validator("distance", -4)
-    Traceback (most recent call last):
-    TypeError: integer_validator() missing 1 required positional argument: 'value'
+    >>> bg = BG()
+
+        >>> bg.area(self)
+        Traceback (most recent call last):
+        NameError: name 'self' is not defined
+        >>> bg.integer_validator("name", "John")
+        Traceback (most recent call last):
+        TypeError: name must be an integer
+        >>> bg.integer_validator("age", 0)
+        Traceback (most recent call last):
+        ValueError: age must be greater than 0
+        >>> bg.integer_validator()
+        Traceback (most recent call last):
+        TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
