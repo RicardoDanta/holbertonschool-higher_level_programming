@@ -8,3 +8,6 @@
     >>> m_l.append(7)
     Traceback (most recent call last):
     TypeError: descriptor 'append' for 'list' objects doesn't apply to a 'int' object
+    >>> m_l.print_sorted()
+    Traceback (most recent call last):
+    TypeError: print_sorted() missing 1 required positional argument: 'self'
