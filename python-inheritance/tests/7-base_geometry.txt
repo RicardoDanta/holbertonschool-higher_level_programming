@@ -3,3 +3,6 @@
     >>> b_g.area(self)
     Traceback (most recent call last):
     NameError: name 'self' is not defined
+    >>> b_g.integer_validator()
+    Traceback (most recent call last):
+    TypeError: integer_validator() missing 3 required positional arguments: 'self', 'name', and 'value'
