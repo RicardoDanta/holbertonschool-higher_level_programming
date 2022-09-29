@@ -1,5 +1,5 @@
 >>> b_g = __import__('7-base_geometry').BaseGeometry
 
-    >>> b_g.area()
+    >>> b_g.area(self)
     Traceback (most recent call last):
-    TypeError: area() missing 1 required positional argument: 'self'
+    NameError: name 'self' is not defined
