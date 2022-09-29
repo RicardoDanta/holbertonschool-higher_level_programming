@@ -6,6 +6,10 @@
     >>> m_l.print_sorted()
     [1]
 
+    >>> m_l = m_l()
+        >>> m_l.print_sorted()
+    []
+
     >>> m_l.append(-1)
 
     >>> m_l.print_sorted()
