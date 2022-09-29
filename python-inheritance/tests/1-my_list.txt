@@ -5,3 +5,6 @@
     >>> m_l(1)
     Traceback (most recent call last):
     TypeError: 'int' object is not iterable
+    >>> m_l.append(7)
+    Traceback (most recent call last):
+    TypeError: descriptor 'append' for 'list' objects doesn't apply to a 'int' object
