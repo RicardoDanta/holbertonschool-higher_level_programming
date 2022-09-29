@@ -3,4 +3,4 @@
     >>> b_g("Hola")
     Traceback (most recent call last): 
     TypeError: BaseGeometry() takes no arguments
-    >>> b_g(age, [4])
+    >>> b_g()
