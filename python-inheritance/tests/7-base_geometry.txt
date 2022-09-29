@@ -6,6 +6,6 @@
     >>> b_g.integer_validator()
     Traceback (most recent call last):
     TypeError: integer_validator() missing 3 required positional arguments: 'self', 'name', and 'value'
-    >>> b_g.integer_validator()
+    >>> b_g.area()
     Traceback (most recent call last):
-    TypeError: integer_validator() missing 3 required positional arguments: 'self', 'name', and 'value'
+    TypeError: area() missing 1 required positional argument: 'self'
