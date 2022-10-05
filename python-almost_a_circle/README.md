@@ -2,9 +2,9 @@
 
 ### Background Context
 
-The **AirBnB project** is a big part of the Higher level curriculum. This project will help you be ready for it.
+The **AirBnB project** is a big part of the Higher level curriculum. This project will help us be ready for it.
 
-In this project, you will review everything about Python:
+In this project, we'll review everything about Python:
 
 - Import
 - Exceptions
@@ -17,7 +17,7 @@ In this project, you will review everything about Python:
 - Unittest
 - Read/Write file
 
-You will also learn about:
+We'll also learn about:
 
 - args and kwargs
 - Serialization/Deserialization
