@@ -23,10 +23,10 @@ class Rectangle(Base):
             raise TypeError("y must be an integer")
         if y < 0:
             raise ValueError("y must be >= 0")
-        self.width = width
-        self.height = height
-        self.x = x
-        self.y = y
+        self.__width = width
+        self.__height = height
+        self.__x = x
+        self.__y = y
         super().__init__(id)
 
     @property
@@ -90,5 +90,5 @@ class Rectangle(Base):
 
     def __str__(self):
         """__str__"""
-        return (f"[Rectangle] ({self.__id}) {self.__x}/{self.__y}/ \
-- {self.__width}/{self.__height}")
+        return (f"[Rectangle] ({self.id}) {self.x}/{self.y}/ \
+- {self.width}/{self.height}")
