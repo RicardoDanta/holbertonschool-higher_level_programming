@@ -20,10 +20,8 @@ if __name__ == "__main__":
         WHERE states.name = %(state)s\
         ORDER BY cities.id"
     cur.execute(x, {"state": sys.argv[4]})
-    states = cur.fetchall()
-
-    for state in states:
-        print(state)
+    cities = cur.fetchall()
+    print(", ".join(city[0] for city in cities))
 
     cur.close()
     db.close()
